@@ -12,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebApplication1.Controllers
 {
-    [Route("[controller]")]
+
     public class AppRolesController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -27,7 +27,7 @@ namespace WebApplication1.Controllers
             var roles = _roleManager.Roles;
             return View(roles);
         }
-
+        [HttpGet]
         public IActionResult Create()
         {
             return View();

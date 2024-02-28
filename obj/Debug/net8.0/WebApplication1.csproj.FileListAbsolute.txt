@@ -244,6 +244,7 @@
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.RazorAssemblyInfo.cache
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.RazorAssemblyInfo.cs
+/Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.sourcelink.json
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/staticwebassets.build.json
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/staticwebassets.development.json
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/staticwebassets/msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
@@ -260,4 +261,3 @@
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.pdb
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.genruntimeconfig.cache
 /Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/ref/WebApplication1.dll
-/Users/neelshah/Documents/GitHub/SalesCRMApp/WebApplication1/obj/Debug/net8.0/WebApplication1.sourcelink.json

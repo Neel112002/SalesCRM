@@ -7,7 +7,7 @@
 
 <h1>View Roles</h1>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Create Role</a>
 </p>
 
 <table class="table">
@@ -22,4 +22,18 @@
             <th></th>
         </tr>
     </thead>
+    <body>
+        @foreach (var item in Model)
+        {
+                            <tr>
+                                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+
+                            </tr>
+        }
+    </body>
 </table>
