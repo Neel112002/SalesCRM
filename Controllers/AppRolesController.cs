@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +13,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebApplication1.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
 
     public class AppRolesController : Controller
     {
@@ -29,12 +30,14 @@ namespace WebApplication1.Controllers
             return View(roles);
         }
         [HttpGet]
+
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
+
         public async Task<IActionResult> Create(IdentityRole model)
         {
             // avoid duplicate role

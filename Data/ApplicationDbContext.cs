@@ -22,5 +22,6 @@ namespace WebApplication1.Data
 
         // DbSet for SalesLeadEntity
         public DbSet<SalesLeadEntity> SalesLeads { get; set; }
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
     }
 }
